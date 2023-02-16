@@ -30,4 +30,9 @@
     .btn
         @include mixins.btn
         align-self: start
-            
+
+@media (max-width: variables.$screen-sm-min )
+    #main-content
+        h2
+            display: flex
+            flex-direction: column
