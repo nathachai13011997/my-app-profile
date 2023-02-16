@@ -36,6 +36,9 @@
             height: 2rem
             border-radius: variables.$card-border-radius
 
+        .info-box-message
+            width: 100%
+
         #phone-icon
             color: #e93b81
 
@@ -44,3 +47,11 @@
 
         #pin-icon
             color: #c17ceb
+
+@media (max-width: variables.$screen-sm-min )
+    #infomation
+        .info-card
+            .info-box-message
+                width: 70%
+                p
+                    word-wrap: break-word
