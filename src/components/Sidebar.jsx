@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from '../img/nathachaiRungsaeng.jpeg'
 import SocialNetworks from './SocialNetworks.jsx'
 import InformationContentner from './InformationContentner.jsx'
-import CV from '../img/nathachairungsaengEN.pdf'
+import CV2 from '../img/nathachaiENv2.pdf'
 
 import '../styles/components/sidebar.sass'
 
@@ -13,7 +13,7 @@ const Sidebar = () => {
         <p className='title'>Developer Full Stack</p>
         <SocialNetworks />
         <InformationContentner />
-        <a href={CV} download={CV} className='btn'>Download Resume</a>
+        <a href={CV2} download={CV2} className='btn'>Download Resume</a>
     </aside>
   )
 }

@@ -9,8 +9,14 @@ const AboutContentner = () => {
         Likes to work in a team, has curiosity, enthusiasm, has patience.
         Responsible for assigned work
       </p>
-
-      <h2>Work History</h2>
+      <h2>Study</h2>
+      <p>
+        Rajamangala University of Technology Bangkok <br />
+        Faculty of Business Administration <br />
+        Information Systems Branch <br />
+        GPA 2.76
+      </p>
+      <h2>Work Experience</h2>
       <p>
         24 Fix <br />{" "}
         <span style={{ marginLeft: "20px" }}>Position Full Stack</span> <br />
@@ -31,14 +37,40 @@ const AboutContentner = () => {
         </li>
       </p>
       <p>
-        Innovisor Tech<br />{" "}
-        <span style={{ marginLeft: "20px" }}>Position Full Stack</span> <br />
+        Innovisor Tech
+        <br /> <span style={{ marginLeft: "20px" }}>
+          Position Full Stack
+        </span>{" "}
+        <br />
         <span>February 15, 2021 to August 18, 2022</span>
         <br />
-        <li style={{ marginLeft: "20px" }}>work as assigned Responsible for deployCode, support team members Find solutions, make central components, explain how to use the components that you create for the team, fix various bugs, etc</li>
-        <li style={{ marginLeft: "20px" }}>Have the opportunity to do ETL in Staging , Store, MasterData, Fact, CUBE and report with Power BI.</li>
-        <li style={{ marginLeft: "20px" }}>Have the opportunity to study online ethereum developer zero to hero Nattapon Nimakul (Tot) of the company.</li>
-        <li style={{ marginLeft: "20px" }}>Have the opportunity to study online ETL With Microsoft SQL Integration Services (SSIS) of the company.</li>
+        <li style={{ marginLeft: "20px" }}>
+          work as assigned Responsible for deployCode, support team members Find
+          solutions, make central components, explain how to use the components
+          that you create for the team, fix various bugs, etc
+        </li>
+        <li style={{ marginLeft: "20px" }}>
+          Have the opportunity to do ETL in Staging , Store, MasterData, Fact,
+          CUBE and report with Power BI.
+        </li>
+        <li style={{ marginLeft: "20px" }}>
+          Have the opportunity to study online ethereum developer zero to hero
+          Nattapon Nimakul (Tot) of the company.
+        </li>
+        <li style={{ marginLeft: "20px" }}>
+          Have the opportunity to study online ETL With Microsoft SQL
+          Integration Services (SSIS) of the company.
+        </li>
+      </p>
+      <h2>Git Hub / Work Persona</h2>
+      <p>
+        <span>Search Channel</span> <br />
+          web: <a href="https://search-channel.vercel.app/" target={"_blank"}>
+            https://search-channel.vercel.app/
+          </a> <br />
+          github: <a href="https://github.com/nathachai13011997/search-channel" target={"_blank"}>
+            https://github.com/nathachai13011997/search-channel
+          </a>
       </p>
     </section>
   );
