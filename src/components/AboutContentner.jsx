@@ -65,12 +65,21 @@ const AboutContentner = () => {
       <h2>Git Hub / Work Persona</h2>
       <p>
         <span>Search Channel</span> <br />
-          web: <a href="https://search-channel.vercel.app/" target={"_blank"}>
+        <div id="box-web" style={{ display: "flex" }}>
+          <span style={{ marginRight: "5px" }}>web:</span>
+          <a href="https://search-channel.vercel.app/" target={"_blank"}>
             https://search-channel.vercel.app/
-          </a> <br />
-          github: <a href="https://github.com/nathachai13011997/search-channel" target={"_blank"}>
-            https://github.com/nathachai13011997/search-channel
+          </a>{" "}
+        </div>
+        <div id="box-github" style={{ display: "flex" }}>
+          <span style={{ marginRight: "5px" }}>github:</span>
+          <a
+            href="https://github.com/nathachai13011997/search-channel"
+            target={"_blank"}
+          >
+            https://github.com/nathachai13011997
           </a>
+        </div>
       </p>
     </section>
   );
